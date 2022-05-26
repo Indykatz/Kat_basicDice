@@ -1,0 +1,36 @@
+/* container is the whole webpage, header, footer, content are all contained in the conntainer  */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dice {
+  padding: 4px;
+  background-color: #2a5a97;
+  width: 104px;
+  height: 104px;
+  border-radius: 10%;
+  margin: auto;
+  display: flex;
+}
+
+#d5 {
+  background-color: #fff;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #2a5a97;
+  margin: auto;
+  margin-bottom: 5px;
+}
